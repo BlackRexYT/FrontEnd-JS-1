@@ -155,10 +155,42 @@ console.log(str[str.length -1])*/
 /* 1 2 T H   E X A M P L E */
 
 
-function welcomePersonToFES(name){
-    console.log(`Welcome to FES, `+ name)
+// function welcomePersonToFES(name){
+//     console.log(`Welcome to FES, `+ name)
+// }
+
+// welcomePersonToFES('david')
+// welcomePersonToFES('zen')
+// welcomePersonToFES('metri')
+
+
+/* 1 3 T H   E X A M P L E */
+
+
+// function sumOfTwoNumbers(i,j){
+//     return i + j
+// }
+
+// console.log(sumOfTwoNumbers(5,10))
+
+
+
+
+// function celsiusToFahrenheit(celsius){
+//     fahrenheit=celsius * 1.8 + 32
+//     return fahrenheit
+// }
+
+// console.log(celsiusToFahrenheit(0))
+// console.log(celsiusToFahrenheit(10))
+// console.log(celsiusToFahrenheit(30))
+
+
+/* 1 4 T H   E X A M P L E */
+
+
+const celsiusToFahrenheit = (celsius) => {
+    return celsius * 1.8 + 32
 }
 
-welcomePersonToFES('david')
-welcomePersonToFES('zen')
-welcomePersonToFES('metri')
+console.log(celsiusToFahrenheit(10))
