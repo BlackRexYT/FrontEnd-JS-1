@@ -361,12 +361,11 @@ console.log(str[str.length -1])*/
 
 //change html
 
-document.querySelector('.title').innerHTML = 'FRONTENDSIMPLIFIED'
+// document.querySelector('.title').innerHTML = 'FRONTENDSIMPLIFIED'
 
-//change css
+// //change css
 
-
-function changeTitleToRed(){
-    console.log('clicked')
-    document.querySelector('.title').style.color = 'red'
-}
+// function changeTitleToRed(){
+//     console.log('clicked')
+//     document.querySelector('.title').style.color = 'red'
+// }
