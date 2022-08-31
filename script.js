@@ -365,7 +365,15 @@ console.log(str[str.length -1])*/
 
 // //change css
 
-function changeTitleToRed(){
-     console.log('clicked')
-    document.querySelector('.title').style.color = 'red'
+// function changeTitleToRed(){
+//     console.log('clicked')
+//     document.querySelector('.title').style.color = 'red'
+// }
+
+
+/* 2 4 T H   E X A M P L E */
+
+
+function toggleDark(){
+    document.querySelector('body').classList.toggle('dark-theme')
 }
