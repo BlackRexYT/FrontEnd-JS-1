@@ -199,7 +199,35 @@ console.log(str[str.length -1])*/
 /* 1 5 T H   E X A M P L E */
 
 
-let arr = [10,20,30,40]
-console.log(arr[arr.length - 1])
+// let arr = [10,20,30,40]
+// console.log(arr[arr.length - 1])
 
-arr.push(200)
+// arr.push(200)
+
+// let newArr = arr.filter(element => {
+//     console.log(element)
+//     if (element < 50){
+//         return true
+//     }
+// })
+
+// let newArr = arr.filter(element => {
+//     return element < 50
+// })
+
+// let newArr = arr.filter(element => element < 50)
+
+// console.log(newArr)
+
+
+/* 1 6 T H   E X A M P L E */
+
+
+let arr = ['A+','A','FAIL']
+
+let newArr = arr.filter(element => {
+    if (element != 'FAIL'){
+        return true
+    }
+})
+console.log(newArr)
