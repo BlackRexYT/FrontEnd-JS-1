@@ -344,5 +344,10 @@ console.log(str[str.length -1])*/
 
 /* 2 2 N D   E X A M P L E */
 
+// first way
 
-document.querySelector('#title')
+console.log(document.querySelector('#title'))
+
+// second way
+
+console.log(document.getElementById('title'))
