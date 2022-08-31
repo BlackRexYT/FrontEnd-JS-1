@@ -290,53 +290,59 @@ console.log(str[str.length -1])*/
 /* 2 1 S T   E X A M P L E */
 
 
-let users = [
-    {
-        userName: 'Fahad',
-        email:'fahadadsani@gmail.com',
-        subStatus:'VIP',
-        discordID:'Reks#6969',
-        lessonsCompleted:[0, 1],  
-        password: 'test123', 
-    },
-    {
-        userName: 'Saleh',
-        email:'salehalfadhel@gmail.com',
-        subStatus:'VIP',
-        discordID:'XS#idc',
-        lessonsCompleted:[0, 1, 2, 3],   
-        password: 'test123',
-    },
-]
+// let users = [
+//     {
+//         userName: 'Fahad',
+//         email:'fahadadsani@gmail.com',
+//         subStatus:'VIP',
+//         discordID:'Reks#6969',
+//         lessonsCompleted:[0, 1],  
+//         password: 'test123', 
+//     },
+//     {
+//         userName: 'Saleh',
+//         email:'salehalfadhel@gmail.com',
+//         subStatus:'VIP',
+//         discordID:'XS#idc',
+//         lessonsCompleted:[0, 1, 2, 3],   
+//         password: 'test123',
+//     },
+// ]
 
 
-function login(email,password){
-    for(let i = 0; i <users.length; i++){
-        if (users[i].email === email){
-            if (users[i].password === password){
-                console.log('password right login')
-            }
-            else{
-                console.log('pass wrong retry')
-            }
-            return;
-        }
-    }
-    console.log('email wrong')
-}
+// function login(email,password){
+//     for(let i = 0; i <users.length; i++){
+//         if (users[i].email === email){
+//             if (users[i].password === password){
+//                 console.log('password right login')
+//             }
+//             else{
+//                 console.log('pass wrong retry')
+//             }
+//             return;
+//         }
+//     }
+//     console.log('email wrong')
+// }
 
-login('fahadadsani@gmail.com','test123')
+// login('fahadadsani@gmail.com','test123')
 
 
 
-function register(user){
-    users.push(user)
-}
-register({
-    username:'fahad',
-    email:'fahadadsani@gmail.com',
-    password:'test123',
-    subStatus:'vip',
-    discordID:'reks#123',
-    lessonsCompleted:[1,2,3]
-})
+// function register(user){
+//     users.push(user)
+// }
+// register({
+//     username:'fahad',
+//     email:'fahadadsani@gmail.com',
+//     password:'test123',
+//     subStatus:'vip',
+//     discordID:'reks#123',
+//     lessonsCompleted:[1,2,3]
+// })
+
+
+/* 2 2 N D   E X A M P L E */
+
+
+document.querySelector('#title')
