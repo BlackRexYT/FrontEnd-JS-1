@@ -189,8 +189,11 @@ console.log(str[str.length -1])*/
 /* 1 4 T H   E X A M P L E */
 
 
-const celsiusToFahrenheit = (celsius) => {
-    return celsius * 1.8 + 32
-}
+// const celsiusToFahrenheit = (celsius) => {
+//     return celsius * 1.8 + 32
+// }
 
-console.log(celsiusToFahrenheit(10))
+// console.log(celsiusToFahrenheit(10))
+
+
+/* 1 5 T H   E X A M P L E */
