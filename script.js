@@ -365,7 +365,7 @@ console.log(str[str.length -1])*/
 
 // //change css
 
-// function changeTitleToRed(){
-//     console.log('clicked')
-//     document.querySelector('.title').style.color = 'red'
-// }
+function changeTitleToRed(){
+     console.log('clicked')
+    document.querySelector('.title').style.color = 'red'
+}
