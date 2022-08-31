@@ -223,11 +223,120 @@ console.log(str[str.length -1])*/
 /* 1 6 T H   E X A M P L E */
 
 
-let arr = ['A+','A','FAIL']
+// let arr = ['A+','A','FAIL']
 
-let newArr = arr.filter(element => {
-    if (element != 'FAIL'){
-        return true
+// let newArr = arr.filter(element => {
+//     if (element != 'FAIL'){
+//         return true
+//     }
+// })
+
+// console.log(newArr)
+
+
+/* 1 7 T H   E X A M P L E */
+
+
+// let arr = ['A+','A','FAIL']
+// let newArr = []
+
+// for (let i = 0; i < arr.length; i++){
+//     if (arr[i] != 'FAIL'){
+//         newArr.push(arr[i])
+//         console.log(arr[i])
+//     }
+// }
+// console.log(newArr)
+
+
+/* 1 8 T H   E X A M P L E */
+
+
+// let arr = [1,2,3,4]
+
+// // let newArr = arr.map((element) => {
+// //     return 'lol'
+// // })
+
+// let newArr = arr.map(element => 'lol')
+
+// console.log(newArr)
+
+
+/* 1 9 T H   E X A M P L E */
+
+
+// let dollars = [1,5,10,3]
+
+// let cents = dollars.map(element => element * 100)
+
+// console.log(cents)
+
+
+/* 2 0 T H   E X A M P L E */
+
+
+// let dollars = [1,5,10,3]
+
+// let cents = []
+
+// for (let i = 0; i<dollars.length;i++){
+//     cents.push(dollars[i] * 100)
+// }
+
+// console.log(cents)
+
+
+/* 2 1 S T   E X A M P L E */
+
+
+let users = [
+    {
+        userName: 'Fahad',
+        email:'fahadadsani@gmail.com',
+        subStatus:'VIP',
+        discordID:'Reks#6969',
+        lessonsCompleted:[0, 1],  
+        password: 'test123', 
+    },
+    {
+        userName: 'Saleh',
+        email:'salehalfadhel@gmail.com',
+        subStatus:'VIP',
+        discordID:'XS#idc',
+        lessonsCompleted:[0, 1, 2, 3],   
+        password: 'test123',
+    },
+]
+
+
+function login(email,password){
+    for(let i = 0; i <users.length; i++){
+        if (users[i].email === email){
+            if (users[i].password === password){
+                console.log('password right login')
+            }
+            else{
+                console.log('pass wrong retry')
+            }
+            return;
+        }
     }
+    console.log('email wrong')
+}
+
+login('fahadadsani@gmail.com','test123')
+
+
+
+function register(user){
+    users.push(user)
+}
+register({
+    username:'fahad',
+    email:'fahadadsani@gmail.com',
+    password:'test123',
+    subStatus:'vip',
+    discordID:'reks#123',
+    lessonsCompleted:[1,2,3]
 })
-console.log(newArr)
