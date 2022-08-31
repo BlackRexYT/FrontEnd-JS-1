@@ -197,3 +197,9 @@ console.log(str[str.length -1])*/
 
 
 /* 1 5 T H   E X A M P L E */
+
+
+let arr = [10,20,30,40]
+console.log(arr[arr.length - 1])
+
+arr.push(200)
