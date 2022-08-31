@@ -344,10 +344,25 @@ console.log(str[str.length -1])*/
 
 /* 2 2 N D   E X A M P L E */
 
-// first way
+// first way to get in console
 
-console.log(document.querySelector('#title'))
+// console.log(document.querySelector('#title'))
 
-// second way
+// // second way
 
-console.log(document.getElementById('title'))
+// console.log(document.getElementById('title'))
+
+
+/* 2 3 R D   E X A M P L E */
+
+
+// access and change any element
+
+
+//change html
+
+document.querySelector('.title').innerHTML = 'FRONTENDSIMPLIFIED'
+
+//change css
+
+document.querySelector('.title').style.color = 'red'
