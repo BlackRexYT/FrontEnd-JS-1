@@ -365,4 +365,8 @@ document.querySelector('.title').innerHTML = 'FRONTENDSIMPLIFIED'
 
 //change css
 
-document.querySelector('.title').style.color = 'red'
+
+function changeTitleToRed(){
+    console.log('clicked')
+    document.querySelector('.title').style.color = 'red'
+}
